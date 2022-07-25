@@ -1,0 +1,21 @@
+{
+  "name": "demo-vuepress",
+  "version": "1.0.1",
+  "description": "vitepress docs",
+  "main": "src/index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [
+    "vitepress",
+    "markdown"  
+  ],
+  "author": "patric",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  }
+}
